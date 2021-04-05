@@ -13,15 +13,22 @@ add Features, then build from there
 
 show distribution of dom gross by studio, # of films, as well as mean, proportion of revenue
 
+show log of movie grosses distribution
+
 whats going on with small opening weekend numbers but larger domestic gross
 what is about these movies that did well? besides just the opening weekend
 group smaller distributors into one, or cluster and replace distributor
 Cluster twice for genre
+
+May lose predictive power
+
 Try one and see what it gives, use those clusters as features, and try a linear regression
 Standardize, do a LASSO Regression will do that same
     FOUND ROBUST SCALING TO HANDLE OUTLIERS
     Plot those features on a scatter matrix
     do some EDA on the features, talk about what features were important
+    Dont worry about coeffs as much, since there are so many, compare with top 10 of RF
+    model.score is R2, 
 Random Forest
     Talk about feature importance 
 
